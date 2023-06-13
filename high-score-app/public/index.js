@@ -38,3 +38,12 @@ function PlayerScore({ name, score }) {
 
   function App() {
     const countries = allCountryScores.map((item) => item.name);
+
+    return (
+        <div>
+          {countries.map((country, index) => (
+            <HighScoreTable key={index} country={country} />
+          ))}
+        </div>
+      );
+    }
