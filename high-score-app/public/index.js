@@ -35,3 +35,6 @@ function PlayerScore({ name, score }) {
       </tr>
     );
   }
+
+  function App() {
+    const countries = allCountryScores.map((item) => item.name);
