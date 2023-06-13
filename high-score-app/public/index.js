@@ -1,5 +1,5 @@
 import React from 'react';
-import allCountryScores from './public';
+import allCountryScores from './data.js';
 
 function HighScoreTable({ country }) {
     const scores = allCountryScores.find((item) => item.name === country).scores;
