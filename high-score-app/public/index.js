@@ -47,3 +47,4 @@ function PlayerScore({ name, score }) {
         </div>
       );
     }
+    export default App;
